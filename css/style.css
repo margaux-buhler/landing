@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+	margin:  0px;
+	background-color: #F1EDE5;
+}
+h1 {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Space Mono', monospace;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+p span {
+  background: #D15037;
+  color: #FFFFFF;
+}

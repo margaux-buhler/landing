@@ -1,0 +1,26 @@
+.avatars {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.avatar {
+	padding: 20px;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px;
+	flex-basis: 100px;
+	flex-grow: 1;
+}
+
+.avatar img {
+	width: 100%;
+	border-radius: 50%;
+	border: 4px solid #FFFFFF;
+}
+
+.avatar h3 {
+	text-align: center;
+	width: 100%;
+	flex-grow: 1;
+	font-size: 18;
+}
